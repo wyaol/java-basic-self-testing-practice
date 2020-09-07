@@ -2,6 +2,8 @@ package com.twc.javaBasic;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -30,9 +32,8 @@ class BooleanOperatorsTest {
     //  please write your answers directly(modify the value of expectedResult to equal actualResults).
     //
     // <--start
-    boolean[] expectedResult = {};
+    boolean[] expectedResult = {true, false, false, true, true, false, true, false, false, true, true, false, false, true};
     // --end-->
-
     assertArrayEquals(expectedResult, actualResults);
   }
 }
